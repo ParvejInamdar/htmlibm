@@ -1,0 +1,137 @@
+body
+{
+    width:1920px;
+    height:1080px;
+}
+.container
+{
+width:100%;
+height:100%;
+}
+nav{
+	width:100%;
+	height:80px;
+    background:rgb(255,0,0);
+    border-radius: 15px;
+	line-height:80px;
+}
+nav ul{
+	text-align: center;
+	margin-right:100px;
+}
+nav ul li{
+	list-style-type:none;
+    display: inline-block;
+}
+nav ul li a{
+	text-decoration: rgb(247, 4, 4);
+    color: White;
+    padding: 5px 20px;
+    font-size: 20px;
+    border: 1px solid #F00 transparent; 
+    transition:0.6s ease;
+}
+nav ul li a:hover{
+    background-color: rgb(238, 230, 226);
+    color: black;
+	border-radius:15px;
+	transition:0.8s all;
+}
+#image{
+    left: 5%;
+    top: 25%;
+    position: absolute;
+    overflow: visible;
+    width: 50%;
+    height: 40%;
+    text-align: center;
+    font-family: Segoe UI;
+    font-weight:bold;
+    font-size: 60px;
+    color: rgba(242,231,231,1);
+}
+#rect1 {
+	fill: rgba(255,255,255,1);
+}
+.rect1{
+	filter: drop-shadow(15px 15px 10px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 400px;
+	height: 584px;
+	left: 50px;
+    top: 91%;
+    right: 50px;
+}
+#ABOUT_COVID-19 {
+    top: 95%;
+    position: absolute;
+    overflow: visible;
+    width: 596px;
+    height: 135px;
+    text-align: center;
+    font-family: Segoe UI;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(48,144,218,1);
+    letter-spacing: 0.25px;
+}
+#rect_img {
+    position: absolute;
+    width: 30%;
+    height: 471px;
+    left: 60%;
+    top: 100%;
+    overflow: visible;
+}
+.Rectangle_3 {
+    position: absolute;
+    overflow: visible;
+    width: 377px;
+    height: 15px;
+    left: 9%;
+    top: 103%;
+}
+#Rectangle_3 {
+	fill: rgba(237,36,46,1);
+}
+#rect_about_info{
+    left: 7%;
+	top: 110%;
+	position: absolute;
+	width: 1000px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-size: 14px;
+	color: rgba(48,144,218,1);
+}
+#corona {
+	position: absolute;
+	width: 30%;
+	height: 40%;
+	left: 10%;
+	top: 170%;
+}
+#CORONA_VIRUS__WHAT_IT_IS {
+	left: 45%;
+	top: 170%;
+	position: absolute;
+	width: 610px;
+	height: 147px;
+	text-align: center;
+	font-family: Segoe UI;
+	font-size: 40px;
+	color: rgba(17,38,54,1);
+}
+#CORONA_VIRUS__WHAT_IT_IS_INFO {
+	left: 41%;
+	top: 190%;
+	position: absolute;
+	width: 694px;
+	height: 112px;
+	text-align: center;
+	font-family: Segoe UI;
+	font-size: 20px;
+	color: rgba(17,38,54,1);
+}
